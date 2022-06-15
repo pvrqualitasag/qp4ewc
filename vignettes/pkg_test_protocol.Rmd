@@ -1,0 +1,34 @@
+---
+title: "Package Test Protocol"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Package Test Protocol}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Disclaimer
+This document summarizes the changes to the package `qp4ewc` proposed as a result of some tests with the package.
+
+
+## Pre-Requisites
+After adjusting the permissions of the directory `/qualstorzws01/data_projekte/projekte/beef-production-model? the RStudio project could be opened in RStudio directly. 
+
+The package `log4r` must be included as a dependency. This can be done via 
+
+```{r, eval=FALSE}
+usethis::use_package("log4r")
+```
+
+
+
+
+
+## Installation
